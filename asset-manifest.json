@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Learning-portal-frontend/static/css/main.a6f2d8a5.css",
+    "main.js": "/Learning-portal-frontend/static/js/main.ce659e1b.js",
+    "static/js/453.5e95b41c.chunk.js": "/Learning-portal-frontend/static/js/453.5e95b41c.chunk.js",
+    "index.html": "/Learning-portal-frontend/index.html",
+    "main.a6f2d8a5.css.map": "/Learning-portal-frontend/static/css/main.a6f2d8a5.css.map",
+    "main.ce659e1b.js.map": "/Learning-portal-frontend/static/js/main.ce659e1b.js.map",
+    "453.5e95b41c.chunk.js.map": "/Learning-portal-frontend/static/js/453.5e95b41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f2d8a5.css",
+    "static/js/main.ce659e1b.js"
+  ]
+}

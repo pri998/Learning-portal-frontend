@@ -1,0 +1,141 @@
+/* src/LearningMaterial.css */
+
+/* Overall layout */
+.learning-material {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f2f4f8;
+    width: 267px;
+    height: 566px;
+    top: 64px;
+    left: 78px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px 0;
+  }
+  
+  .sidebar li.active {
+    background-color: #cce5ff;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .tab.active {
+    background-color: #ffc107;
+  }
+  
+  .how-it-works {
+    margin-left: auto;
+    color: #007bff;
+  }
+  
+  /* Layout for chapters and course details */
+  .content {
+    display: flex;
+  }
+  
+  /* Chapter List */
+  .chapters {
+    width: 200px;
+    margin-right: 20px;
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .chapters h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .chapter {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chapter.active {
+    background-color: #e3f2fd;
+  }
+  
+  .time {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  /* Chapter Details */
+  .chapter-details {
+    flex-grow: 1;
+  }
+  
+  .part {
+    border: 1px solid #ffc107;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .part-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .resources {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .resources li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .resources .highlighted {
+    border-top: 2px solid #ff66b2;
+    border-bottom: 2px solid #ff66b2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
